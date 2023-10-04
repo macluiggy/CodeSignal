@@ -8,6 +8,6 @@ def solution(yourLeft, yourRight, friendsLeft, friendsRight):
     yourWeakest = min(yourLeft, yourRight)
     # get the weakest from friends
     friendsWeakest = min(friendsLeft, friendsRight)
-
+ 
     # check if both arms are equally strong and return the boolean
     return yourStrongest == friendsStrongest and yourWeakest == friendsWeakest
