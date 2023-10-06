@@ -1,4 +1,4 @@
-def solution(inputArray):
+def solution(inputArray: list):
     # store the maximum difference starting with 0
     maximumDifference = 0
     # iterate through the array
