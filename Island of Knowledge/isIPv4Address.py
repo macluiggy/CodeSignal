@@ -1,5 +1,4 @@
 def solution(inputString):
-    print('this is not from root')
     parts = inputString.split('.')
     
     if len(parts) != 4:
