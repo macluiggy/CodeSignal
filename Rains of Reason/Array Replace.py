@@ -10,3 +10,8 @@ elemToReplace = 1
 substitutionElem = 3
 
 print(solution(inputArray, elemToReplace, substitutionElem))
+
+def alternative_solution(inputArray: list, elementToReplace: int, substitutionElement: int):
+    return [substitutionElement if x == elementToReplace else x for x in inputArray]
+
+print(alternative_solution(inputArray, 1, substitutionElement=3))
